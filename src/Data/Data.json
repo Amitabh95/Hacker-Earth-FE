@@ -1,0 +1,74 @@
+[
+    {
+        "id": 9090,
+        "name": "Item1",
+        "price": 200,
+        "qty": 1,
+        "discount": 10,
+        "type": "fiction",
+        "img_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chihuahua-dog-running-across-grass-royalty-free-image-1580743445.jpg?crop=0.655xw:0.983xh;0.107xw,0&resize=640:*"
+    },
+    {
+        "id": 9091,
+        "name": "Item2",
+        "price": 250,
+        "qty": 1,
+        "discount": 15,
+        "type": "literature",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9092,
+        "name": "Item3",
+        "price": 320,
+        "qty": 1,
+        "discount": 5,
+        "type": "literature",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9093,
+        "name": "Item4",
+        "price": 290,
+        "qty": 1,
+        "discount": 0,
+        "type": "thriller",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9094,
+        "name": "Item5",
+        "price": 500,
+        "qty": 1,
+        "discount": 25,
+        "type": "thriller",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9095,
+        "name": "Item6",
+        "price": 150,
+        "qty": 1,
+        "discount": 5,
+        "type": "literature",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9096,
+        "name": "Item7",
+        "price": 700,
+        "qty": 1,
+        "discount": 22,
+        "type": "literature",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    },
+    {
+        "id": 9097,
+        "name": "Item8",
+        "price": 350,
+        "qty": 1,
+        "discount": 18,
+        "type": "fiction",
+        "img_url": "https://store.lexisnexis.com.au/__data/media/catalog/thumb//placeholder.jpg"
+    }
+]

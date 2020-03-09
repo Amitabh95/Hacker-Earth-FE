@@ -1,0 +1,64 @@
+.HeaderWrapper {
+    height: 90px;
+    width: 100%;
+    background: rgb(36, 105, 179);
+    background: -moz-linear-gradient(321deg, rgba(36, 105, 179, 1) 0%, rgba(56, 178, 232, 1) 77%);
+    background: -webkit-linear-gradient(321deg, rgba(36, 105, 179, 1) 0%, rgba(56, 178, 232, 1) 77%);
+    background: linear-gradient(321deg, rgba(36, 105, 179, 1) 0%, rgba(56, 178, 232, 1) 77%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2469b3", endColorstr="#38b2e8", GradientType=1);
+}
+
+.HeaderContent {}
+
+.HeaderTitleWrapper {
+    font-size: 24px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    padding-top: 27px;
+    text-align: center;
+}
+
+.UserIconWrapper {
+    float: right;
+    margin-top: -42px;
+    margin-right: 21px;
+    position: relative;
+}
+
+.UserImageContainer {}
+
+.UserImage {
+    width: 55px;
+    cursor: pointer;
+}
+
+.Backdrop {
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+
+.MenuWrapper {
+    border: 1px solid black;
+    right: 0;
+    position: absolute;
+    width: 150px;
+    height: auto;
+    background-color: white;
+    z-index: 9999999;
+    border-radius: 5px;
+}
+
+.UserName {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.MenuItem {
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}

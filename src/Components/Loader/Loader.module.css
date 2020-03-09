@@ -1,0 +1,12 @@
+.LoaderWrapper {
+    margin-top: 16%;
+    opacity: 1;
+}
+.FullscreenGrey {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: #000000;
+    z-index: 99999;
+    position: fixed;
+}

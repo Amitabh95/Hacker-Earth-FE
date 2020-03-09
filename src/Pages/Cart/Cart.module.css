@@ -1,0 +1,267 @@
+.BodyWrapper {
+    margin-top: 56px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 63px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CartWrapper {}
+
+.OrderList {
+    width: calc(99% - 300px);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.TitleBarWrapper {}
+
+.TitleContainer {}
+
+.Bar {
+    width: 95%;
+    margin: 0 auto;
+    height: 33px;
+    border: 1px solid black;
+}
+
+.TitleContainer {
+    margin-top: -26px;
+    margin-bottom: 26px;
+}
+
+.ItemsHeader {
+    width: 59%;
+    display: inline-block;
+    text-align: center;
+}
+
+.QtyHeader {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.PriceHeader {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.ItemList {}
+
+.EachItem {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+
+.EachItemBox {
+    width: 60%;
+    border: 1px solid black;
+    height: 40px;
+    display: inline-block;
+}
+
+.ItemImgWrapper {}
+
+.ItemImage {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.ItemName {
+    margin-top: 11px;
+    display: inline-block;
+    padding-left: 11px;
+    vertical-align: top;
+}
+
+.CloseButton {
+    float: right;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-right: 11px;
+}
+
+.QuantityBoxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 21%;
+    text-align: center;
+    position: relative;
+}
+
+.MinusSymbol {
+    vertical-align: top;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+.QuantityBox {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.QuantityText {
+    display: inline-block;
+    margin-top: 9px;
+    font-size: 19px;
+    margin-left: 0px;
+}
+
+.PlusSymbol {
+    vertical-align: top;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+.PriceWrapper {
+    vertical-align: top;
+    margin-top: 13px;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+
+.EachItemPrice {}
+
+.PriceBoardWrapper {
+    float: right;
+    width: 300px;
+    display: inline-block;
+    height: 147px;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+.PriceBoardBox {
+    padding: 9px;
+}
+
+.TotalText {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.ItemWrapper {}
+
+.BillItem {}
+
+.BillPrice {
+    float: right;
+}
+
+.DiscountWrapper {
+    margin-top: 11px;
+}
+
+.OrderTotalWrapper {
+    margin-top: 6px;
+    height: 24px;
+    padding: 5px;
+    background-color: #d2d2d2
+}
+
+.OrderTotal {}
+
+.OrderTotalText {}
+
+.OrderTotalPrice {
+    float: right;
+}
+
+.ReloadButtonWrapper {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ReloadButton {
+    background-color: #3cabe3;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 103px;
+}
+
+.ReloadButtonText {
+    color: white;
+    font-size: 14px;
+}
+
+.DummyHeight {
+    height: 0px;
+}
+
+@media (min-width: 780px) and (max-width: 1000px) {
+    .EachItemBox {
+        width: 55%;
+    }
+    .QuantityBoxWrapper {
+        width: 27%;
+    }
+    .PriceWrapper {
+        width: 17%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 779px) {
+    .OrderList {
+        width: 100%;
+        display: block;
+    }
+    .PriceBoardWrapper {
+        float: none;
+        width: 95%;
+        margin-left: 2%;
+        margin-bottom: 29px;
+    }
+    .DummyHeight {
+        height: 28px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 527px) {
+    .EachItemBox {
+        width: 55%;
+    }
+    .QuantityBoxWrapper {
+        width: 29%;
+    }
+    .PriceWrapper {
+        width: 14%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    .QuantityBox {
+        width: 27px;
+    }
+    .QuantityText {
+        margin-top: 12px;
+        font-size: 15px;
+    }
+    .CloseButton {
+        margin-top: 11px;
+        font-size: 17px;
+        margin-right: 6px;
+    }
+    .QuantityBox {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .ItemName {
+        margin-top: 13px;
+        padding-left: 6px;
+        font-size: 14px;
+    }
+    .EachItemPrice {
+        font-size: 14px;
+    }
+}
